@@ -7,8 +7,8 @@ import visualize
 import pickle
 pygame.font.init()  # init font
 
-WIN_WIDTH = 600
-WIN_HEIGHT = 800
+WIN_WIDTH = 800 #600 changes to 800
+WIN_HEIGHT = 1000 # 800 to 1000
 FLOOR = 730
 STAT_FONT = pygame.font.SysFont("comicsans", 50)
 END_FONT = pygame.font.SysFont("comicsans", 70)
@@ -28,7 +28,7 @@ class Bird:
     """
     Bird class representing the flappy bird
     """
-    MAX_ROTATION = 25
+    MAX_ROTATION = 25 # 25 to 50
     IMGS = bird_images
     ROT_VEL = 20
     ANIMATION_TIME = 5
